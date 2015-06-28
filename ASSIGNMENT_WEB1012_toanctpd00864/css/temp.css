@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+body{
+	font-family: "Times New Roman", Times, serif;
+	}
+#wrapper {
+	margin: auto;
+	width: 980px;
+	background: #F90;
+	}	
+#header {
+	overflow:hidden;
+	margin: 5px 0px 0px 0px;
+	}
+#logo {
+	width: 250px;
+	height: 115px;
+	float:left;
+	margin:0px 10px 0px 0px;
+	}
+#banner1 {
+	width: 350px;
+	height: 115px;
+	float: left;
+	margin:0px 10px 0px 0px;
+	}
+#banner2 {
+	width: 350px;
+	height: 115px;
+	float: left;
+	margin:0px 10px 0px 0px;
+	}
+#menu ul {
+	float: left;
+	}
+#menu ul li {
+	float: left;
+	list-style: none;
+	}
+#menu li a{
+	display: block;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	background: #00E;
+	margin: 10px 15px;
+	width: 130px;
+	height: 25px;
+	text-height: 25px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	}	
+#menu li a:hover{
+	background: #00abea;
+	}
+#footer{
+	width: 980px;
+	}
+#footer p {
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	}
+#content{
+	width: 980px;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	}
+#left {
+	width: 655px;
+	height: auto;
+	float: left;
+	}
+#right{
+	width: 320px;
+	height: auto;
+	float: right;
+	}
+#left h2 {
+	text-align: left;
+	margin: 10px 0px 0px 0px;
+	}
+#hinh1 {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 15px 20px 10px 5px;
+	}
+#tieude {
+	font-size: 16px;
+	font-weight: bold;
+	font-style:italic;
+	margin: 15px 10px 80px 0px;
+	}
+#noidung {
+	font-size: 18px;
+	margin-bottom: 25px;	
+	}
+#right h1 {
+	background: #F60;
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+	}
+#right ul {
+	margin: 10px 5px 10px 20px;
+	}
+#right ul li {
+	text-height: 15px; 
+	font-size: 16px;
+	}
+.tinmorong {
+	margin: 20px 0px 15px 10px;
+	}
+#left ul li {
+	margin-left: 20px;
+	text-height: 25px;
+	}
+#right video {
+	width: 320px;
+	height: 280px;	
+	}
+.clip {
+	
+	}
+.gioithieuvideo{
+	width: 300px;
+	height: auto;
+	margin: 5px auto;
+	padding:5px;
+	overflow: hidden;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 2px 5px  5px #00F;
+	border: 1px solid blue;
+	}
+#left form {
+	background:#FC6;
+	}
+.form {
+	margin: 10px auto;
+	height:auto;
+	width: 450px;
+	}
+.gioitinh {
+	margin-top: 10px;
+	}
+.nutbam {
+	margin: auto;
+	text-height: 25px;
+	background:#0FF;
+	font-weight: bold;
+	height: 25px;
+	}
+#left legend {
+	font-size: 30px;
+	font-weight: bold;
+	text-align:center;
+	}
+.input {
+	float:right;
+	clear: right;
+	margin-right: 50px;
+	}
+#nutbam {
+	width: 450px;
+	margin: auto;
+	clear: both;
+	text-align:center;
+	}
+#nutbam input {
+	text-height: 25px;
+	background: #0C6;
+	margin: 15px auto;
+	
+}
+#nutbam input:hover{
+	background:#0F6;
+	}
+#datbao {
+	color:#FC0;
+	text-decoration: underline;
+	margin-top: 15px;
+	text-align:center;	
+	}
+#right ul {
+	
+	}
+#right ul li {
+	text-height: 20px;
+	float: left;
+	}
+.phone {
+	width: 25px;
+	height: 25px;
+	}
+#logothongtin{
+	width: 320px;
+	height: 220px;
+	margin-top: 20px;
+	}
+#clip {
+	width: 650px;
+	margin:auto;
+	overflow:hidden;
+	}
+}
+.hinhto {
+	width: 353px;
+	height: 196px;
+	float: left;
+	margin: 0px 10px 10px 10px;
+	}
+.tieudeto {
+	Margin-top: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	font-style:italic;
+	}
+.nho {
+	clear: both;
+	overflow:hidden;
+	}
+.nho img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}
+#bongdaanh h2 {
+	color: #FC0;
+	margin: 15px 10px;
+	text-align: center;
+	}
+.hinhnho {
+	width:129px;
+	height:74px;
+	float:left;
+	}
+#TBN h3 {
+	background: #F60;
+	margin: 15px 10px;
+	}
+#chuyennhuong{
+	width: 650px;
+	margin: auto;
+	}
+#sotrang {
+	text-align: center;
+	}
+#sotrang p {
+	float: left;
+	font-weight: bold;
+	}
+#sotrang p a {
+	font-weight: bold;
+	width: 15px;
+	height: 20px;
+	background: #AAA;
+	}
+#sotrang p a:visited {
+	color: #FF3;
+	}
+#tinbinhluannhieu {
+	width: 290px;
+	height: auto;
+	padding: 10px;
+	margin: 5px auto;
+	border: 1px solid #E00;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 2px 2px 7px #3333FF;
+	overflow: hidden;
+	}
+#tintucbongdaanh {
+	width: 630px;
+	height:auto;
+	overflow: hidden;
+	border: 1px solid #00F;
+	border-radius: 15px 15px 15px 15px;
+	box-shadown: 2px 2px 7px #00F;
+	margin: 5px auto;
+	text-align: center;
+	background: #00F;
+	}
+#tintucbongdaanh h3 {
+	text-hight: 25px;
+	color: #FC0;
+	}
+.tintucto {
+	width: 630px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #FFCCCC;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 2px 2px 7px #FFCCCC;
+	padding: 5px;
+	margin: 0 auto;
+	}
+.tintucto img {
+	float: left;
+	margin: 5px 10px;
+	width: 355;
+	height: 200px;
+	}
+.tintucnho {
+	clear: both;
+	width: 630px;
+	overflow: hidden;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 2px 2px 7px #FFCCCC;
+	padding: 5px;
+	margin: 5px auto;
+	}
+.tintucnho img {
+	width; 200px;
+	height: 100px;;
+	margin: 5px;
+	float: left;
+	}
+#sotranganh {
+	width: 630px;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	text-align: center;
+	margin: 10px;
+	}
+#tintucbongdaTBN {
+	width: 630px;
+	height:auto;
+	overflow: hidden;
+	border: 1px solid #00F;
+	border-radius: 15px 15px 15px 15px;
+	box-shadown: 2px 2px 7px #00F;
+	margin: 5px auto;
+	text-align: center;
+	background: #00F;
+	}
+#tintucbongdaTBN h3 {
+	text-hight: 25px;
+	color: #FC0;
+	}
+	
+#titlechuyennhuong {
+	width: 630px;
+	height:auto;
+	overflow: hidden;
+	border: 1px solid #00F;
+	border-radius: 15px 15px 15px 15px;
+	box-shadown: 2px 2px 7px #00F;
+	margin: 5px auto;
+	text-align: center;
+	background: #00F;
+	}
+#titlechuyennhuong h3 {
+	text-hight: 25px;
+	color: #FC0
+	}
+#lienheright {
+	width: 290px;
+	height: auto;
+	padding: 10px;
+	margin: 5px auto;
+	border: 1px solid #E00;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 2px 2px 7px #3333FF;
+	overflow: hidden;
+	}
+#titleclip {
+	width: 630px;
+	height:auto;
+	overflow: hidden;
+	border: 1px solid #00F;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 2px 2px 7px #00F;
+	margin: 5px auto;
+	text-align: center;
+	background: #00F;
+	}
+#titleclip h2 {
+	text-align:center;
+	text-hight: 25px;
+	color: #FC0;
+	}
+.diachi {
+	width: 630px;
+	height:auto;
+	overflow: hidden;
+	border: 1px solid #00F;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: inset 3px 3px 7px #33F;
+	margin: 5px auto;
+	}
